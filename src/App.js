@@ -3,18 +3,19 @@ import {Switch, Route, Link } from 'react-router-dom';
 import {Layout, Typography, Space} from 'antd';
 
 // This is one and a traditional way to import components to page 
-// import navbar from './components/navbar';
+// import Navbar from './components/Navbar';
 // USing the below method, we can import multiple components in a single line
-import {navbar } from './components';
+import { Navbar } from './components';
+
 
 const app = () => {
   return (
     <div className="app">
       <div className="navbar">
-        <navbar/>
+        <Navbar/>
       </div>
       <div className="main">
-
+      
       </div>
       <div className="footer">
 
