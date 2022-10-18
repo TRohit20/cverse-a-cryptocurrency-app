@@ -6,6 +6,7 @@ import {Layout, Typography, Space} from 'antd';
 // import Navbar from './components/Navbar';
 // USing the below method, we can import multiple components in a single line
 import { Navbar } from './components';
+import './App.css'
 
 
 const app = () => {
